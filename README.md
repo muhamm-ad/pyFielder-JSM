@@ -27,6 +27,7 @@ This project automates the creation and deletion of custom fields in Jira Servic
 ## Setup
 
 1. Clone the repository.
+
 2. Install dependencies:
 
    ```bash
@@ -69,6 +70,10 @@ python main.py apply --iterations 5
 ## Customization
 
 Edit `utils.py` to define the custom fields you want to create. Each field can have a name, description, type, options, and default value.
+
+To manage custom field options and default values, this script uses the Jira REST API. For more details, refer to the official documentation:
+
+🔗 [Jira REST API - Field Context Options](https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issue-custom-field-options/#api-rest-api-3-field-fieldid-context-contextid-option-post)
 
 ## Troubleshooting
 
