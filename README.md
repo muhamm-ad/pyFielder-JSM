@@ -50,7 +50,7 @@ python main.py apply --iterations 5
 ### Options
 
 - `--iterations, -n N` : Number of custom fields to create (default: 1)
-- `--state-file, -f FILE` : Path to state file (default: jsm_state.json)
+- `--state-file, -f FILE` : Path to state file (default: state.json)
 - `--verbose, -v` : Enable detailed messages for field creation and deletion
 
 ### Examples
@@ -81,6 +81,10 @@ To manage custom field options and default values, this script uses the Jira RES
 - The script requires admin permissions in Jira.
 - If you encounter API errors, check your network and Jira API limits.
 - The state file (`jsm_state.json` by default) tracks created fields. If you manually delete fields in Jira, you may need to delete or reset this file.
+
+## 📋 Scripts Utilitaires
+
+- [manual_clean_field.py](./manual_clean_field.py): Un script utilitaire pour nettoyer les champs personnalisés dans Jira en fonction d'un filtre de recherche.
 
 ## License
 

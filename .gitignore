@@ -1,5 +1,6 @@
 .history/
 secrets.py
+*state*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -1,5 +1,5 @@
 
-JSM_STATE_FILE = "jsm_state.json"
+JSM_STATE_FILE = "state.json"
 
 CUSTOM_FIELDS_TO_CREATE = [
     {
